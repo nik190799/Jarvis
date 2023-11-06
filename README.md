@@ -20,18 +20,12 @@ Ensure you have Python installed on your system.
 Set up the OpenAI API key by setting the OPENAI_API_KEY environment variable.
 Clone the Repository:
 
-sh
-Copy code
 git clone https://github.com/nik190799/Jarvis.git
 Install Dependencies:
 
-sh
-Copy code
 pip install openai
 Run Jarvis:
 
-sh
-Copy code
 cd Jarvis
 python main.py
 Usage:
