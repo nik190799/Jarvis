@@ -1,0 +1,22 @@
+[
+    {
+        "role": "user",
+        "content": "'Context': The main task is to list the name from the filenames which changes are required according to the requirements and also mention the new file if required to add in project."
+    },
+    {
+        "role": "user",
+        "content": "request: If we click on chat item or group item, it should open up the message UI where I will have editbox to write message, filenames: ['call_list.dart', 'chat_list.dart', 'group_list.dart', 'main.dart', 'whatsapp_tabs.dart']"
+    },
+    {
+        "role": "assistant",
+        "content": "chat_list.dart***group_list.dart***message_ui.dart"
+    },
+    {
+        "role": "user",
+        "content": "request: If we click on the fab item which is the message icon, it should open up a dialog box for typing the message, filenames: ['explore_page.dart', 'home_timeline.dart', 'main.dart', 'notifications_page.dart', 'twitter_tabs.dart']"
+    },
+    {
+        "role": "assistant",
+        "content": "main.dart***twitter_tabs.dart"
+    }
+]
